@@ -81,7 +81,7 @@ export default class Presentation extends React.Component {
               <ListItem>Serverless</ListItem>
               <ListItem>Machine Learning Becoming the new Norm</ListItem>
               <ListItem>Voice / Intent based development</ListItem>
-              <ListItem>Hybrid Cloud</ListItem>
+              <ListItem>The Complete / Possibly Hybrid Cloud</ListItem>
             </List>
             <Heading size={2} caps fit textColor="white" textFont="primary">
               Trends
@@ -109,6 +109,72 @@ export default class Presentation extends React.Component {
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor="primary">
             <Heading caps fit>Serverless</Heading>
+            <Layout>
+              <Fill>
+                <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                  Good
+                </Heading>
+                <Appear fid="1">
+                  <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                    Ecosystem getting richer
+                  </Heading>
+                </Appear>
+                <Appear fid="2">
+                  <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                    Distributed Compute Options
+                  </Heading>
+                </Appear>
+              </Fill>
+              <Fill>
+                <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                  Cautions
+                </Heading>
+                <Appear fid="1">
+                  <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                    Not all in Sydney
+                  </Heading>
+                </Appear>
+                <Appear fid="2">
+                  <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                    In Limited Preview
+                  </Heading>
+                </Appear>
+                <Appear fid="3">
+                  <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
+                    Edge cases
+                  </Heading>
+                </Appear>
+              </Fill>
+            </Layout>
+          </Slide>
+          <Slide transition={["slide"]} bgColor="black">
+            <BlockQuote>
+              <Quote>“AI is taking over the world”</Quote>
+              <Cite>Matt Wood</Cite>
+            </BlockQuote>
+          </Slide>
+          <Slide transition={["slide"]} bgImage={images.serverless.replace("/", "")} bgDarken={0.75}>
+            <Heading size={1} caps fit textColor="white" textFont="primary">
+              Machine Learning / AI
+            </Heading>
+            <Appear fid="2">
+              <Heading size={1} caps fit textColor="primary">
+                Polly
+              </Heading>
+            </Appear>
+            <Appear fid="2">
+              <Heading size={1} caps fit textColor="tertiary">
+                Rekognition
+              </Heading>
+            </Appear>
+            <Appear fid="3">
+              <Heading size={1} caps textColor="primary">
+                Batch / Glue
+              </Heading>
+            </Appear>
+          </Slide>
+          <Slide transition={["zoom", "fade"]} bgColor="primary">
+            <Heading caps fit>ML / AI</Heading>
             <Layout>
               <Fill>
                 <Heading size={4} caps textColor="secondary" bgColor="white" margin={10}>
